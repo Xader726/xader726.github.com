@@ -11,7 +11,7 @@ if($size > 1000000)
 	die("The file is too big!");
 }
 else	
-move_uploaded_file($temp,"uploaded/".$name);
+move_uploaded_file($temp,"uploads/".$name);
 
 header("location: uploadcomplete.html");
 
